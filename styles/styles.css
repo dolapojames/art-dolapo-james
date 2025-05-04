@@ -1,0 +1,11 @@
+h1 {
+  font-size: 100px;
+  color: grey;
+  font-family: "Jost", sans-serif;
+  font-weight: 350;
+}
+
+p {
+  font-family: "Jost", sans-serif;
+  font-size: 30px;
+}
