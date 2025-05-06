@@ -1,11 +1,36 @@
-h1 {
-  font-size: 100px;
-  color: grey;
-  font-family: "Jost", sans-serif;
-  font-weight: 350;
+:root {
+  --accent-color: #ffef00;
+  --primary-color: #959595;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
 p {
   font-family: "Jost", sans-serif;
-  font-size: 30px;
+}
+
+.hero-container {
+  text-align: center;
+  margin-top: 50px;
+  padding: 200px, 0;
+}
+.hero-container h1 {
+  font-size: 55px;
+  color: var(--primary-color);
+  font-weight: 375;
+}
+
+.hero-container p {
+  font-size: 20px;
+}
+.btn-secondary {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  border: none;
 }
