@@ -11,18 +11,26 @@ h5,
 p {
   font-family: "Jost", sans-serif;
 }
+h2 {
+  font-size: 35px;
+}
+p {
+  font-size: 16px;
+}
 
 .hero-container {
-  text-align: center;
+  margin-left: 50px;
   margin-top: 50px;
-  padding: 200px, 0;
+  padding-bottom: 50px;
 }
 .hero-container h1 {
   font-size: 55px;
   color: var(--primary-color);
   font-weight: 375;
 }
-
+.hero-container h2 {
+  font-size: 35px;
+}
 .hero-container p {
   font-size: 20px;
 }
@@ -33,4 +41,35 @@ p {
   font-size: 20px;
   background-color: var(--primary-color);
   border: none;
+}
+.btn-outline-secondary {
+  border-color: var(--primary-color);
+}
+.series-description-header h2 {
+  color: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  p {
+    text-align: center;
+  }
+  .btn-outline-secondary {
+    display: block;
+    margin: 0 auto;
+  }
+  .hero-container h1,
+  h2 {
+    text-align: center;
+  }
+  .btn-secondary {
+    display: none;
+  }
 }
