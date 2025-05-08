@@ -15,7 +15,7 @@ h2 {
   font-size: 35px;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .hero-container {
@@ -35,6 +35,14 @@ p {
   font-size: 20px;
 }
 .btn-secondary {
+  margin-top: 20px;
+  padding: 10px 25px;
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  background-color: var(--primary-color);
+  border: none;
+}
+.btn-secondary-about {
   margin-top: 20px;
   padding: 10px 25px;
   font-family: "Jost", sans-serif;
@@ -71,5 +79,11 @@ p {
   }
   .btn-secondary {
     display: none;
+  }
+
+  .about-description button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
   }
 }
