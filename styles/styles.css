@@ -88,6 +88,9 @@ p {
     display: block;
     margin: 0 auto;
   }
+  .hero-container {
+    margin-left: 0;
+  }
   .hero-container h1,
   h2 {
     text-align: center;
